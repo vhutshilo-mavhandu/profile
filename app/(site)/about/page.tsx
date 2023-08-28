@@ -42,7 +42,7 @@ export default async function About() {
                     <BiFile className="text-base" /> Download Resumé
                   </a>
                 </div>
-
+                
                 <ul>
                   <li>
                     <a
