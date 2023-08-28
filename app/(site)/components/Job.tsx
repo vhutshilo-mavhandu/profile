@@ -4,7 +4,7 @@ import type { JobType } from "@/types";
 
 export default async function Job() {
   const job: JobType[] = await getJob();
-
+  
   return (
     <section className="mt-32">
       <div className="mb-16">
