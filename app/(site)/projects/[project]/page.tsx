@@ -21,8 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: project.tagline,
     openGraph: {
       images:
-        project.coverImage?.image ||
-        "https://res.cloudinary.com/victoreke/image/upload/v1689892912/docs/project.png",
+        project.coverImage?.image,
       title: project.name,
       description: project.tagline,
     },
