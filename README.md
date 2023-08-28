@@ -13,11 +13,7 @@ To use this template for your portfolio site, follow the guide: [How to build a 
 - Webhook-triggered continuous deployment; Content updates will automatically trigger a build command
 - Built with cutting-edge technologies: Next.js 13, TypeScript, Tailwind CSS
 
-## Project Overview
 
-| [Personal Website][site]          | [Studio][studio]                 |
-| --------------------------------- | -------------------------------- |
-| ![Personal Website][site-preview] | ![Sanity Studio][studio-preview] |
 
 ### Important files and folders
 
