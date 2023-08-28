@@ -4,7 +4,7 @@ import type { JobType } from "@/types";
 
 export default async function Job() {
   const job: JobType[] = await getJob();
-  
+  const sortedJobs = job.sort((a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime())
   return (
     <section className="mt-32">
       <div className="mb-16">
@@ -12,7 +12,7 @@ export default async function Job() {
       </div>
 
       <div className="flex flex-col gap-y-12">
-        {job.map((data) => (
+        {sortedJobs.map((data) => (
           <div
             key={data._id}
             className="flex items-start lg:gap-x-6 gap-x-4 max-w-2xl relative before:absolute before:bottom-0 before:top-[4.5rem] before:left-7 before:w-[1px] before:h-[calc(100%-50px)] before:bg-zinc-800"
