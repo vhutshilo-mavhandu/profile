@@ -39,15 +39,15 @@ export default async function About() {
                     href={`${data.resumeURL}?dl=${data.fullName}_resume`}
                     className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
                   >
-                    <BiFile className="text-base" /> Download Resumé
+                    <BiFile className="text-base" /> Download Resume
                   </a>
                 </div>
-                
+
                 <ul>
                   <li>
                     <a
                       href={`mailto:${data.email}`}
-                      className="flex items-center gap-x-2 hover:text-purple-400 duration-300"
+                      className="flex justify-center items-center gap-x-2 hover:text-purple-400 duration-300"
                     >
                       <BiEnvelope className="text-lg" />
                       {data.email}
