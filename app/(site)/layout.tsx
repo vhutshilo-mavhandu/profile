@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vhutshilo's profile",
-  description: "A personal portfolio site built with Sanity and Next.js",
+  description: "A personal portfolio site for Vhutshilo Mavhandu",
   openGraph: {
     images: "add-your-open-graph-image-url-here",
   },
